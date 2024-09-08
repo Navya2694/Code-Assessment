@@ -1,0 +1,11 @@
+Problem1:
+1) provide three arguments input file, specs file, output file (input1.csv, spec.json, output2.csv)
+2) python3 Task1.py input1.csv specs.json output1.csv
+4) given the Dockerfile, If we run "docker build -t task1 -f Dockerfile .", a docker image will be created 
+
+problem2:
+1) provide two arguments input file, output file
+2) python3 Task2.py input2.csv output2.csv
+3) I have tested it with 2 GB csv file, it worked.
+4) for bigger datasets in distributed computing environment we can use spark to run this problem.
+5) i have used my microsoft azure databricks platform to utilize spark. it worked for me.
